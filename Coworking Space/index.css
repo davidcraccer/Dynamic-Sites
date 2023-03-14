@@ -120,7 +120,6 @@ button {
     .item{
         width: 100%;
         justify-self: center;
-        padding-bottom: 5px;
     }
 }
 
@@ -141,11 +140,11 @@ button {
 }
 @media (min-width: 900px) {
     .item{
-        width: 400px;
+        width: 90%;
         margin-bottom: 25px;
     }
     .wrapper{
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));
 
     }
 }
